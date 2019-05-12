@@ -1,0 +1,10 @@
+<div>
+    <h4>This is Child component (contact-update)</h4>
+    <p>Input property:  {{contacts | json}}</p>
+
+    <p>Click below button to update parent component's property value and observe that parent component value will be updated.</p>
+
+    <button (click)="updateValue()">Update value</button>
+
+    <p> Output property:  {{updatedContacts | json}}</p>  
+</div>

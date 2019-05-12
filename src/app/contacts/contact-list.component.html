@@ -1,0 +1,8 @@
+<h4>This is Parent component (contact-list)</h4>
+
+Initial Parent Property: {{contactList | json}}
+
+<app-contact-update [contacts]="contactList" (onUpdated)="onContactUpdated($event)"></app-contact-update>
+
+<p>Updated Parent Property: {{updatedContactList  | json }}</p>
+
